@@ -1,3 +1,5 @@
+all: examheap
+
 examheap: examheap.o heap.o
 	g++ -o examheap examheap.o heap.o 
 
